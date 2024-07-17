@@ -1,6 +1,39 @@
 .nav-bar-first {
-  background-color: rgb(193, 188, 188);
   display: flex;
-  justify-content: flex-end;
-  
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f8f9fa;
+  color: rgb(104, 103, 103);
+}
+
+.left-section {
+  display: flex;
+  flex-direction:initial;
+  justify-content: center;
+}
+.email{
+  margin: 1rem 0 0 3rem;
+}
+
+.right-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.social-networks a {
+  margin-left: 10px;
+}
+
+@media (max-width: 768px) {
+  .nav-bar-first {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .right-section {
+    align-items: flex-start;
+    margin-top: 10px;
+  }
 }

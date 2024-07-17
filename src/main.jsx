@@ -5,8 +5,11 @@ import './index.css'
 import FirstNavBar from '../components/FirstNavBar.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
+<>
     <App />
     <FirstNavBar />
-  </React.StrictMode>,
+</>
+
+
+  
 )
