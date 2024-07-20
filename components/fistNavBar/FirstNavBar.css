@@ -5,6 +5,7 @@
   padding: 10px 20px;
   background-color: #c03434;
   color: rgb(228, 226, 226);
+  border-radius: 5px;
 }
 
 .left-section {
@@ -20,6 +21,10 @@
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+}
+
+.social-networks {
+  color: rgb(228, 226, 226);
 }
 
 .social-networks a {

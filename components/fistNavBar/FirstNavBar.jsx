@@ -15,7 +15,7 @@ const FirstNavBar = () => {
         </div>
         <div className="right-section">
           <div className="social-networks">
-                <a className='facebook' target='_blank' href='https://www.facebook.com/susy.sanchez.7923'> 
+                <a className='facebook' target='_blank' href='https://www.facebook.com/christian.martinezquezada'> 
                   <FacebookIcon className='iconFaceboock' />
                 </a>
                 <a target='_blank' href="https://www.facebook.com/christian.martinezquezada">
