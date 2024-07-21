@@ -1,5 +1,7 @@
 .nav-bar-first {
   display: flex;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;

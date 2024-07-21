@@ -1,14 +1,18 @@
 
-import './Header.css'
+import './Header.css';
 
 const Header = () => {
   return (
     <div className='header'>
-      <h1>Christian Martínez</h1>
-      <img src="./Header-Carnes-y-Quesos.jpg" alt="header-image" />
+      <img src="./Header-Carnes-y-Quesos.jpg" alt="header-image" className='header-image' />
 
+      <div className='name-title'>
+        <h1>Christian Martínez</h1>
+      <p className='header-description'>Professional butcher with more than 10 years of experience</p>
+      </div>
+      
     </div>
-  )
+  );
 }
 
-export default Header
+export default Header;

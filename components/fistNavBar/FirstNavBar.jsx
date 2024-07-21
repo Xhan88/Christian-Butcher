@@ -4,6 +4,7 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 
+
 import "./FirstNavBar.css"
 
 const FirstNavBar = () => {
@@ -16,13 +17,13 @@ const FirstNavBar = () => {
         <div className="right-section">
           <div className="social-networks">
                 <a className='facebook' target='_blank' href='https://www.facebook.com/christian.martinezquezada'> 
-                  <FacebookIcon className='iconFaceboock' />
+                  <FacebookIcon style={{color: 'white'}} />
                 </a>
                 <a target='_blank' href="https://www.facebook.com/christian.martinezquezada">
-                  <InstagramIcon className='instaIcon'/>
+                  <InstagramIcon style={{color: 'white'}}/>
                 </a>
                 <a target='_blank' href="https://api.whatsapp.com/send?phone=3781151949&text=%22Hola%20Susy%20estoy%20interesad@%20en%20tus%20servicios%20de%20pedicurista%22">
-                  <WhatsAppIcon className='whatsIcon'/>
+                  <WhatsAppIcon style={{color: 'white'}}/>
                 </a>         
           </div>
         </div>    
