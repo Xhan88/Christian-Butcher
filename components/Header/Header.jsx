@@ -8,6 +8,7 @@ const Header = () => {
 
       <div className='name-title'>
         <h1>Christian Martínez</h1>
+        <img className='cartel-butcher' src="./carniceria-cartel.png" alt="" />
       <p className='header-description'>Professional butcher with more than 10 years of experience</p>
       </div>
       

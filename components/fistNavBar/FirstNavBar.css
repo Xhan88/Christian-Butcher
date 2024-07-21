@@ -1,7 +1,6 @@
 .nav-bar-first {
   display: flex;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
@@ -12,11 +11,21 @@
 
 .left-section {
   display: flex;
-  flex-direction:initial;
   justify-content: center;
 }
-.email{
-  margin: 1rem 0 0 3rem;
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+}
+
+.contact-item .icon {
+  margin-right: 5px;
+}
+
+.email {
+  margin: 0 0 0 3rem;
 }
 
 .right-section {
