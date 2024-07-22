@@ -7,18 +7,19 @@ const SectionThree = () => {
   const cardsData = [
     {
     image: "./carniceria.png",
-    title: "carniceria",
-    description: "No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas , las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum"
+    title: "IN MY PROFESSION",
+    description: " As a professional butcher, I specialize in selecting, cutting, and preparing a variety of meats with precision and expertise. I ensure top quality and customer satisfaction through meticulous attention to detail, knowledge of various cuts, and exceptional service. My skills contribute to offering the best products to customers, enhancing their culinary experiences. "
+   
     },
     {
     image: "./carnicero.png",
-    title: "carniceria",
-    description: "No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas , las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum."
+    title: "IN MY PERSON",
+    description: "As a professional butcher, I am known for my meticulous attention to detail, strong work ethic, and passion for high-quality meats. I excel in precise cuts and customer service, always ensuring freshness and satisfaction. My dedication to the craft and friendly demeanor create a welcoming and professional environment."
     },
     {
     image: "./carniceria(1).png",
-    title: "carniceria",
-    description: "No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas, las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum."
+    title: "IN THE BUTCHER",
+    description: "As a professional butcher, I am proficient in using various machines and knives with precision and safety. My expertise ensures optimal cuts, efficiency, and adherence to hygiene standards, enhancing product quality and customer satisfaction. I continually maintain and operate equipment effectively to uphold the highest standards in meat preparation."
     },
   ]
 

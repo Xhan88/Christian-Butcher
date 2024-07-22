@@ -16,7 +16,7 @@ export default function ImgMediaCard({image, title, description}) {
       />
       <CardContent style={{background:'grey'}}>
         <Typography gutterBottom variant="h5" component="div">
-          Lizard
+          {title}
         </Typography>
         <Typography variant="body2" color="text.secondary">
           {description}
