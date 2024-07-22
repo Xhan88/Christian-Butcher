@@ -45,7 +45,8 @@
 @media (max-width: 768px) {
   .nav-bar-first {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
+    padding: 10px;
   }
 
   .right-section {
@@ -53,3 +54,4 @@
     margin-top: 10px;
   }
 }
+
