@@ -1,0 +1,21 @@
+.description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; /* Para que las secciones se adapten en pantallas pequeñas */
+  text-align: center; /* Centrar el texto en el parágrafo */
+}
+
+.description img {
+  max-width: 40%;
+  height: auto;
+  margin-top: 2rem;
+}
+
+.description p {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 2rem;
+  max-width: 500px; /* Puedes ajustar el ancho máximo del parágrafo según tus necesidades */
+  /* margin: 10px; */
+  color: rgb(202, 202, 202);
+}
