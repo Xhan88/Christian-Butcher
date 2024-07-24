@@ -7,6 +7,7 @@ import Header from '../components/Header/Header.jsx'
 import SectionThree from '../components/section3/SectionThree.jsx'
 import ButcherDescription from '../components/Description/ButcherDescription.jsx'
 import AboutMe from '../components/Description/AboutMe.jsx'
+import BeefVideo from '../components/videoSection/BeefVideo.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
 <>
@@ -16,6 +17,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <SectionThree />
     <ButcherDescription />
     <AboutMe />
+    <BeefVideo />
 </>
 
 

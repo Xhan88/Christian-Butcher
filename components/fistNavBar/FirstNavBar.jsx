@@ -29,7 +29,7 @@ useEffect(() => {
      <nav className={`nav-bar-first ${isTransparent ? 'transparent' : ''}`}>
         <div className="left-section">
           <p className="contact-item"> <LocalPhoneIcon className="icon" /> +52 378 142 6360</p>
-          <a className='contact-item email'> <EmailIcon className="icon" /> christianmq888@gmail.com</a>
+          <a className='contact-item email' href="mailto:christianmq888@gmail.com"> <EmailIcon className="icon" /> christianmq888@gmail.com</a>
         </div>
         <div className="right-section">
           <div className="social-networks">
@@ -39,7 +39,7 @@ useEffect(() => {
                 <a target='_blank' href="https://www.facebook.com/christian.martinezquezada">
                   <InstagramIcon style={{color: 'white'}}/>
                 </a>
-                <a target='_blank' href="https://api.whatsapp.com/send?phone=3781151949&text=%22Hola%20Susy%20estoy%20interesad@%20en%20tus%20servicios%20de%20pedicurista%22">
+                <a target='_blank' href="https://w.app/butcherBoy">
                   <WhatsAppIcon style={{color: 'white'}}/>
                 </a>         
           </div>

@@ -1,0 +1,14 @@
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(43, 43, 43);
+}
+
+.cuting-meat  {
+    max-width: 80%;
+    max-height: 80%;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px;
+  }
