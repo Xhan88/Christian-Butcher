@@ -9,7 +9,8 @@
 .description img {
   max-width: 40%;
   height: auto;
-  margin-top: 2rem;
+  margin-top: 4rem;
+  padding-top: 10px;
 }
 
 .description p {
