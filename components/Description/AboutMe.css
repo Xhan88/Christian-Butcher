@@ -20,3 +20,9 @@
   /* margin: 10px; */
   color: rgb(202, 202, 202);
 }
+@media (max-width: 390px )   {
+  .description img{
+    max-width: 30rem;
+    margin: -10;
+  }
+}
