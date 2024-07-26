@@ -9,7 +9,7 @@ const Footer = () => {
           <span style={{color: 'grey'}}>passion, responsibility, organization, energy,</span>  communication and courage in their work... don't hesitate to look for me!</h2>
         </div>
         <div>
-          <img src="./meat.png" alt="Meat" />
+          <img src="./carniceria-cartel.png" alt="Meat" />
         </div>
         <div>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic repellat ad numquam ab ducimus eum.</p>

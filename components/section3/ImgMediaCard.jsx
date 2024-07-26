@@ -6,7 +6,7 @@ import Typography from '@mui/material/Typography';
 
 export default function ImgMediaCard({image, title, description}) {
   return (
-    <Card sx={{ maxWidth: 345, boxShadow: '0px 5px 20px' }}>
+    <Card data-aos="fade-up" sx={{ maxWidth: 345, boxShadow: '0px 5px 20px' }}>
       <CardMedia
       style={{background:'grey'}}
         component="img"
