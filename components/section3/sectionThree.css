@@ -1,5 +1,6 @@
 .section-container {
-  background-color: #323232; /* Color gris */
+  background-color: #890a0a; /* Color gris */
   padding: 20px; /* Espaciado alrededor del contenido */
   border-radius: 8px; /* Bordes redondeados, opcional */
+  box-shadow: 0px 5px 20px;
 }

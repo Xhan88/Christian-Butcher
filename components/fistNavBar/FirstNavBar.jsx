@@ -36,7 +36,7 @@ useEffect(() => {
                 <a className='facebook' target='_blank' href='https://www.facebook.com/christian.martinezquezada'> 
                   <FacebookIcon style={{color: 'white'}} />
                 </a>
-                <a target='_blank' href="https://www.facebook.com/christian.martinezquezada">
+                <a target='_blank' href="https://www.instagram.com/dantedeat2024/">
                   <InstagramIcon style={{color: 'white'}}/>
                 </a>
                 <a target='_blank' href="https://w.app/butcherBoy">
