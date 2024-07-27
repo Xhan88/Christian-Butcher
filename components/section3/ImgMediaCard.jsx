@@ -14,7 +14,7 @@ export default function ImgMediaCard({image, title, description}) {
         height="400"
         image={image}
       />
-      <CardContent style={{background:'grey'}} >
+      <CardContent style={{background:'beige'}} >
         <Typography gutterBottom variant="h5" component="div">
           {title}
         </Typography>
