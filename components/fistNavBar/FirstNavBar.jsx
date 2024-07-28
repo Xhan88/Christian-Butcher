@@ -39,7 +39,7 @@ useEffect(() => {
                 <a target='_blank' href="https://www.instagram.com/dantedeat2024/">
                   <InstagramIcon style={{color: 'white'}}/>
                 </a>
-                <a target='_blank' href="https://w.app/butcherBoy">
+                <a target='_blank' href="https://w.app/butcher">
                   <WhatsAppIcon style={{color: 'white'}}/>
                 </a>         
           </div>
