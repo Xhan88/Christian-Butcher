@@ -26,3 +26,8 @@
     margin: -10;
   }
 }
+@media (min-width: 320px )   {
+    h1{
+      font-size: 5rem;
+    }
+}
