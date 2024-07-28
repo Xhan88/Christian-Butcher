@@ -12,7 +12,7 @@ const Footer = () => {
           <img className='icon-footer' src="./meat-cow.png" alt="Meat" />
         </div>
         <div>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic repellat ad numquam ab ducimus eum.</p>
+          <p>all rights reserved Christian Martinez</p>
         </div>
       </div>
     </div>

@@ -35,6 +35,11 @@ body {
   color: rgb(217, 214, 214);
   margin-top: 30%;
 }
+.footer p {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(217, 214, 214);
+  margin-top: 30%;
+}
 
 .icon-footer {
   max-width: 100%;
