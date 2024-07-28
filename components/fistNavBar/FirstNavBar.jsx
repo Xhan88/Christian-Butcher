@@ -38,7 +38,7 @@ const FirstNavBar = () => {
         <Menu right>
           <div className="menu-content">
             <div className="menu-item">
-              <LocalPhoneIcon className="icon" /> +52 378 142 6360
+              <LocalPhoneIcon className="icon" href="tel:+523781426360"/> +52 378 142 6360
             </div>
             <div className="menu-item">
               <EmailIcon className="icon" /> 
@@ -63,7 +63,7 @@ const FirstNavBar = () => {
         <>
           <div className="left-section">
             <p className="contact-item">
-              <LocalPhoneIcon className="icon" /> +52 378 142 6360
+              <LocalPhoneIcon className="icon" href="tel:+523781426360"/> +52 378 142 6360
             </p>
             <a className='contact-item email' href="mailto:christianmq888@gmail.com">
               <EmailIcon className="icon" /> christianmq888@gmail.com
