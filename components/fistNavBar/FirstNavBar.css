@@ -97,6 +97,7 @@ body {
 /* FirstNavBar.css */
 /* FirstNavBar.css */
 /* FirstNavBar.css */
+/* General Reset */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -109,6 +110,7 @@ body {
   overflow-x: hidden;
 }
 
+/* NavBar Styles */
 .nav-bar-first {
   display: flex;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -178,6 +180,7 @@ body {
   margin-left: 10px;
 }
 
+/* Media Query para max-width 768px */
 @media (max-width: 768px) {
   .nav-bar-first {
     flex-direction: column;
@@ -196,25 +199,23 @@ body {
   }
 }
 
-
+/* Media Query para max-width 728px */
 @media (max-width: 728px) {
-  .left-section, .right-section {
-    display: none;
+  .nav-bar-first {
+    display: none; /* Oculta la barra de navegación */
   }
-  
+
   .bm-burger-button {
-    display: block;
+    display: block; /* Asegura que el botón de hamburguesa esté visible */
   }
-  
 }
 
+/* Media Query para min-width 729px */
 @media (min-width: 729px) {
   .bm-burger-button {
-    display: none;
+    display: none; /* Oculta el botón de hamburguesa en pantallas más grandes */
   }
- 
 }
-
 
 /* Burger Menu Styles */
 .bm-burger-button {
@@ -280,5 +281,6 @@ body {
 }
 
 .contact-link:hover {
-  text-decoration: underline;
+  text-decoration: none;
+  color: #890a0a;
 }
