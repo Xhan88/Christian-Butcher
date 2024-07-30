@@ -35,31 +35,33 @@ const FirstNavBar = () => {
   return (
     <nav className={`nav-bar-first ${isTransparent ? 'transparent' : ''}`}>
       {isSmallScreen ? (
-        <Menu right>
-          <div className="menu-content">
-            <div className="menu-item">
-              <LocalPhoneIcon className="icon"/>
-               <a href="tel:+523781426360" className='contact-link' >+52 378 142 6360</a>
+        <>
+          <Menu right>
+            <div className="menu-content">
+              <div className="menu-item">
+                <LocalPhoneIcon className="icon"/>
+                <a href="tel:+523781426360" className='contact-link' >+52 378 142 6360</a>
+              </div>
+              <div className="menu-item">
+                <EmailIcon className="icon" /> 
+                <a href="mailto:christianmq888@gmail.com" className="contact-link">
+                  christianmq888@gmail.com
+                </a>
+              </div>
+              <div className="social-networks">
+                <a className='facebook' target='_blank' rel='noopener noreferrer' href='https://www.facebook.com/christian.martinezquezada'>
+                  <FacebookIcon style={{ color: 'white' }} />
+                </a>
+                <a target='_blank' rel='noopener noreferrer' href="https://www.instagram.com/dantedeat2024/">
+                  <InstagramIcon style={{ color: 'white' }} />
+                </a>
+                <a target='_blank' rel='noopener noreferrer' href="https://w.app/butcher">
+                  <WhatsAppIcon style={{ color: 'white' }} />
+                </a>
+              </div>
             </div>
-            <div className="menu-item">
-              <EmailIcon className="icon" /> 
-              <a href="mailto:christianmq888@gmail.com" className="contact-link">
-                christianmq888@gmail.com
-              </a>
-            </div>
-            <div className="social-networks">
-              <a className='facebook' target='_blank' rel='noopener noreferrer' href='https://www.facebook.com/christian.martinezquezada'>
-                <FacebookIcon style={{ color: 'white' }} />
-              </a>
-              <a target='_blank' rel='noopener noreferrer' href="https://www.instagram.com/dantedeat2024/">
-                <InstagramIcon style={{ color: 'white' }} />
-              </a>
-              <a target='_blank' rel='noopener noreferrer' href="https://w.app/butcher">
-                <WhatsAppIcon style={{ color: 'white' }} />
-              </a>
-            </div>
-          </div>
-        </Menu>
+          </Menu>
+        </>
       ) : (
         <>
           <div className="left-section">
@@ -86,7 +88,6 @@ const FirstNavBar = () => {
         </>
       )}
     </nav>
-    
   );
 }
 
