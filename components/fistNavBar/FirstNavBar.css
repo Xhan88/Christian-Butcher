@@ -99,6 +99,8 @@ body {
 /* FirstNavBar.css */
 /* General Reset */
 /* General Reset */
+/* FirstNavBar.css */
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -111,7 +113,6 @@ body {
   overflow-x: hidden;
 }
 
-/* NavBar Styles */
 .nav-bar-first {
   display: flex;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -129,13 +130,24 @@ body {
   transition: background-color 0.3s, display 0.3s;
 }
 
-.left-section {
+.left-section, .center-section, .right-section {
   display: flex;
-  justify-content: center;
   align-items: center;
 }
 
-.contact-item {
+.left-section {
+  justify-content: flex-start;
+}
+
+.center-section {
+  justify-content: center;
+}
+
+.right-section {
+  justify-content: flex-end;
+}
+
+.contact-item, .nav-link {
   display: flex;
   align-items: center;
   margin: 0 10px;
@@ -144,7 +156,7 @@ body {
   text-decoration: none;
 }
 
-.contact-item:hover {
+.contact-item:hover, .nav-link:hover {
   color: rgb(41, 40, 40);
 }
 
@@ -161,12 +173,6 @@ body {
   margin-left: 3rem;
 }
 
-.right-section {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-}
-
 .social-networks {
   color: rgb(228, 226, 226);
   display: flex;
@@ -181,14 +187,12 @@ body {
   margin-left: 10px;
 }
 
-/* Media Query para max-width 768px */
 @media (max-width: 768px) {
   .nav-bar-first {
     flex-direction: column;
     align-items: center;
     padding: 10px;
     margin-bottom: 20px;
-    
   }
 
   .right-section {
@@ -201,31 +205,19 @@ body {
   }
 }
 
-/* Media Query para max-width 728px */
 @media (max-width: 728px) {
-  .left-section, .right-section {
-    display: none; /* Oculta las secciones izquierda y derecha */
+  .left-section, .center-section, .right-section {
+    display: none;
   }
-
+  
   .bm-burger-button {
-    
-    display: block; /* Asegura que el botón de hamburguesa esté visible */
+    display: block;
   }
 }
-@media (max-width:  729px)   {
-    .nav-bar-first, .nav-bar-first.transparent {
-      background-color: transparent;
-    }
-}
 
-/* Media Query para min-width 729px */
 @media (min-width: 729px) {
   .bm-burger-button {
-    display: none; /* Oculta el botón de hamburguesa en pantallas más grandes */
-  }
-
-  .nav-bar-first {
-    display: flex; /* Muestra la barra de navegación en pantallas más grandes */
+    display: none;
   }
 }
 
@@ -296,3 +288,4 @@ body {
   text-decoration: none;
   color: #890a0a;
 }
+

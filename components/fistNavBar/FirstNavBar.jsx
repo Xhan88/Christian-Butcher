@@ -35,42 +35,48 @@ const FirstNavBar = () => {
   return (
     <nav className={`nav-bar-first ${isTransparent ? 'transparent' : ''}`}>
       {isSmallScreen ? (
-        <>
-          <Menu right>
-            <div className="menu-content">
-              <div className="menu-item">
-                <LocalPhoneIcon className="icon"/>
-                <a href="tel:+523781426360" className='contact-link' >+52 378 142 6360</a>
-              </div>
-              <div className="menu-item">
-                <EmailIcon className="icon" /> 
-                <a href="mailto:christianmq888@gmail.com" className="contact-link">
-                  christianmq888@gmail.com
-                </a>
-              </div>
-              <div className="social-networks">
-                <a className='facebook' target='_blank' rel='noopener noreferrer' href='https://www.facebook.com/christian.martinezquezada'>
-                  <FacebookIcon style={{ color: 'white' }} />
-                </a>
-                <a target='_blank' rel='noopener noreferrer' href="https://www.instagram.com/dantedeat2024/">
-                  <InstagramIcon style={{ color: 'white' }} />
-                </a>
-                <a target='_blank' rel='noopener noreferrer' href="https://w.app/butcher">
-                  <WhatsAppIcon style={{ color: 'white' }} />
-                </a>
-              </div>
+        <Menu right>
+          <div className="menu-content">
+            <div className="menu-item">
+              <LocalPhoneIcon className="icon"/>
+              <a href="tel:+523781426360" className='contact-link'>+52 378 142 6360</a>
             </div>
-          </Menu>
-        </>
+            <div className="menu-item">
+              <EmailIcon className="icon" /> 
+              <a href="mailto:christianmq888@gmail.com" className="contact-link">
+                christianmq888@gmail.com
+              </a>
+            </div>
+            <div className="social-networks">
+              <a className='facebook' target='_blank' rel='noopener noreferrer' href='https://www.facebook.com/christian.martinezquezada'>
+                <FacebookIcon style={{ color: 'white' }} />
+              </a>
+              <a target='_blank' rel='noopener noreferrer' href="https://www.instagram.com/dantedeat2024/">
+                <InstagramIcon style={{ color: 'white' }} />
+              </a>
+              <a target='_blank' rel='noopener noreferrer' href="https://w.app/butcher">
+                <WhatsAppIcon style={{ color: 'white' }} />
+              </a>
+              <a href="#">CV</a>
+              <a href="#">#</a>
+              <a href="#">#</a>
+            </div>
+          </div>
+        </Menu>
       ) : (
         <>
           <div className="left-section">
             <p className="contact-item">
-              <LocalPhoneIcon className="icon" /><a className='contact-link' style={{ color: 'white'}}  href="tel:+523781426360" >+52 378 142 6360</a>
+              <LocalPhoneIcon className="icon" /><a className='contact-link' style={{ color: 'white'}} href="tel:+523781426360">+52 378 142 6360</a>
             </p>
             <a className='contact-item email' href="mailto:christianmq888@gmail.com">
               <EmailIcon className="icon" /> christianmq888@gmail.com
             </a>
+          </div>
+          <div className="center-section">
+            <a href="#cv" className="nav-link">CV</a>
+            <a href="#cover-letter" className="nav-link">Cover Letter</a>
+            <a href="#cronology" className="nav-link">Cronology</a>
           </div>
           <div className="right-section">
             <div className="social-networks">
