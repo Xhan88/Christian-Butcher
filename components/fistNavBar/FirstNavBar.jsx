@@ -57,10 +57,14 @@ const FirstNavBar = () => {
               <a target='_blank' rel='noopener noreferrer' href="https://w.app/butcher">
                 <WhatsAppIcon style={{ color: 'white' }} />
               </a>
-              <a href="#">CV</a>
-              <a href="#">#</a>
-              <a href="#">#</a>
+            
+           
             </div>
+              <section>
+             <a href="#cv" className="nav-link">CV</a>
+            <a href="#cover-letter" className="nav-link">Cover Letter</a>
+            <a href="#cronology" className="nav-link">Cronology</a>
+              </section>
           </div>
         </Menu>
       ) : (

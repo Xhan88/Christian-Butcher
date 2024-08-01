@@ -221,6 +221,15 @@ body {
   }
 }
 
+@media (max-width: 728px )   {
+  .nav-link {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+    font-size: 2rem;
+  }
+}
+
 /* Burger Menu Styles */
 .bm-burger-button {
   position: fixed;
