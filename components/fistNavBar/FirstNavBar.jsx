@@ -61,7 +61,7 @@ const FirstNavBar = () => {
            
             </div>
               <section>
-             <a href="#cv" className="nav-link">CV</a>
+             <a href="./CV-CA.docx" className="nav-link">CV</a>
             <a href="#cover-letter" className="nav-link">Cover Letter</a>
             <a href="#cronology" className="nav-link">Cronology</a>
               </section>
@@ -78,7 +78,7 @@ const FirstNavBar = () => {
             </a>
           </div>
           <div className="center-section">
-            <a href="#cv" className="nav-link">CV</a>
+            <a href="./CV-CA.docx" className="nav-link">CV</a>
             <a href="#cover-letter" className="nav-link">Cover Letter</a>
             <a href="#cronology" className="nav-link">Cronology</a>
           </div>

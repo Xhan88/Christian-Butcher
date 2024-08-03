@@ -193,6 +193,10 @@ body {
     align-items: center;
     padding: 10px;
     margin-bottom: 20px;
+    background-color: transparent;
+  }
+  .nav-bar-first.transparent {
+    background-color: transparent;
   }
 
   .right-section {
@@ -204,6 +208,8 @@ body {
     margin-left: 0;
   }
 }
+
+
 
 @media (max-width: 728px) {
   .left-section, .center-section, .right-section {
@@ -219,6 +225,7 @@ body {
   .bm-burger-button {
     display: none;
   }
+  
 }
 
 @media (max-width: 728px )   {
