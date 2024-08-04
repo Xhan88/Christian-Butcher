@@ -180,7 +180,7 @@ const FirstNavBar = () => {
             </a>
           </div>
            <a style={{color: 'white'}} href="./CV-CA.docx">CV</a>
-          <a style={{color: 'white'}} href="#">Cover Letter</a>
+          <a style={{color: 'white'}} href="./covver-letter-christian.docx">Cover Letter</a>
           <a style={{color: 'white'}} href="#">Cronologia</a>
           <div className="right-section">
          
