@@ -1,4 +1,4 @@
-import React from 'react';
+
 import ImgMediaCard from './ImgMediaCard';
 import { Grid, Container } from '@mui/material';
 import './sectionThree.css';
@@ -24,7 +24,7 @@ const SectionThree = () => {
   ]
 
   return (
-    <Container className='section-container'>
+    <Container data-aos="fade-up" className='section-container'>
       <Grid container spacing={2}>
         {cardsData.map((card, index) => (
           <Grid item xs={12} sm={4} key={index}>

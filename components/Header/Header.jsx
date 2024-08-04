@@ -3,8 +3,8 @@ import './Header.css';
 
 const Header = () => {
   return (
-    <div className='header'>
-      <img src="./Header-Carnes-y-Quesos.jpg" alt="header-image" className='header-image' />
+    <div data-aos="fade-up" className='header'>
+      <img src="./header4.avif" alt="header-image" className='header-image' />
 
       <div className='name-title' style={{boxShadow: '10px 4px 8px rgba(0, 0, 0, 0.5)' }}>
         <h1>Christian Martínez</h1>
