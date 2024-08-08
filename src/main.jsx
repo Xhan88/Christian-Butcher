@@ -8,18 +8,29 @@ import ButcherDescription from '../components/Description/ButcherDescription.jsx
 import AboutMe from '../components/Description/AboutMe.jsx'
 import BeefVideo from '../components/videoSection/BeefVideo.jsx'
 import Footer from '../components/footer/Footer.jsx'
-
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Chronology from '../components/Chronology/Chronology.jsx'
 ReactDOM.createRoot(document.getElementById('root')).render(
-<>
+<BrowserRouter>
+
+   <>
+
     <App />
     <FirstNavBar />
+    
     <Header />
     <SectionThree />
     <ButcherDescription />
     <AboutMe />
     <BeefVideo />
     <Footer />
-</>
+</> 
+<Routes>
+    <Route path='/Chronology' element={<Chronology />}/> 
+    </Routes>
+
+</BrowserRouter>
+
 
 
   
