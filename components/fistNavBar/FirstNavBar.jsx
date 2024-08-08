@@ -188,7 +188,11 @@ const FirstNavBar = () => {
           <div className="center-section">
             <a href="./CV-CA.docx" className="nav-link">CV</a>
             <a href="./cover-letter-christian.docx" className="nav-link">Cover Letter</a>
-            <NavLink to='./Chronology' className="nav-link">Chronology</NavLink>
+
+            
+            <NavLink to='./chronology' className="nav-link">Chronology</NavLink>
+
+
           </div>
           <div className="right-section">
             <div className="social-networks">

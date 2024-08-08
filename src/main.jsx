@@ -12,26 +12,28 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Chronology from '../components/Chronology/Chronology.jsx'
 ReactDOM.createRoot(document.getElementById('root')).render(
 <BrowserRouter>
-
    <>
 
     <App />
+    <Routes>
+    <Route path='Chronology' element={<Chronology />}/> 
+    </Routes>
+
     <FirstNavBar />
-    
     <Header />
     <SectionThree />
     <ButcherDescription />
     <AboutMe />
     <BeefVideo />
     <Footer />
-</> 
-<Routes>
-    <Route path='/Chronology' element={<Chronology />}/> 
-    </Routes>
 
+</> 
 </BrowserRouter>
 
 
 
   
 )
+
+
+
