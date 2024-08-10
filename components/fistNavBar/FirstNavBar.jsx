@@ -110,7 +110,6 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
-import { NavLink } from 'react-router-dom';
 import { slide as Menu } from 'react-burger-menu';
 import "./FirstNavBar.css";
 import { useEffect, useState } from 'react';
@@ -159,7 +158,7 @@ const FirstNavBar = () => {
               <div className="social-networks">
                 <a href="./CV-CA.docx" className="nav-link">CV</a>
                 <a href="./cover-letter-christian.docx" className="nav-link">Cover Letter</a>
-                <NavLink to='/chronology' className="nav-link">Chronology</NavLink>
+                
               </div>
               <div className="social-networks">
                 <a className='facebook' target='_blank' rel='noopener noreferrer' href='https://www.facebook.com/christian.martinezquezada'>
@@ -190,7 +189,7 @@ const FirstNavBar = () => {
             <a href="./cover-letter-christian.docx" className="nav-link">Cover Letter</a>
 
             
-            <NavLink to='./chronology' className="nav-link">Chronology</NavLink>
+           
 
 
           </div>
