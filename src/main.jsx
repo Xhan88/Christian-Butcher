@@ -8,6 +8,7 @@ import ButcherDescription from '../components/Description/ButcherDescription.jsx
 import AboutMe from '../components/Description/AboutMe.jsx'
 import BeefVideo from '../components/videoSection/BeefVideo.jsx'
 import Footer from '../components/footer/Footer.jsx'
+import SeconDescription from '../components/SeconDescription/SeconDescription.jsx'
 ReactDOM.createRoot(document.getElementById('root')).render(
 
    <>
@@ -21,6 +22,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <ButcherDescription />
     <AboutMe />
     <BeefVideo />
+    <SeconDescription />
     <Footer />
 
 </> 
