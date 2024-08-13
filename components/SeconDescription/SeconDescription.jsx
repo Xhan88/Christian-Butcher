@@ -1,8 +1,9 @@
-
+import './SecondDescription.css'
 const SeconDescription = () => {
   return (
     <div className="description" >
-      <p>Una serie de tecnicas aprendidas a lo largo de mi vida me an ayudado a ser un trabajador de alto valor, desde embutir moler cortar preparar y dar consegos a la clientela de cual es el mejor corte para el  platillo que planean realizar, control de calidad, de inventario , manejo y capacitacion de personal son una de las cualidades que me caracterizan.   </p>
+      <video autoPlay muted controls className="working1" src="./working1.mp4"></video>
+      <p>A series of techniques Ive learned throughout my life have helped me become a highly valuable worker. From sausage making, grinding, cutting, and preparing meats to advising customers on the best cuts for their planned dishes, my expertise is broad. I excel in quality control, inventory management, and training and supervising staff. These are just a few of the qualities that define me, along with a deep commitment to delivering the best service and ensuring customer satisfaction in every aspect of my work. </p>
     </div>
   )
 }
