@@ -1,5 +1,12 @@
 .working1 {
   border-radius: 10px;
   margin: 2rem;
-  
+
+}
+
+@media (min-width:  360px)   {
+    .working1 {
+      width: 20rem;
+
+    }
 }
