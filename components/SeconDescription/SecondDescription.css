@@ -4,6 +4,10 @@
 
 }
 
+.description {
+  margin: 3rem;
+}
+
 @media (min-width:  360px)   {
     .working1 {
       width: 20rem;
