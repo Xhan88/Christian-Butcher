@@ -12,3 +12,6 @@ const SeconDescription = () => {
 }
 
 export default SeconDescription
+
+
+
